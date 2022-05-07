@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="3faaf215-b56f-495a-a661-1770705da0df" data-root-id="3764"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="4240">
+          {"f22be079-84b1-4742-a753-7e5236aad437":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"3773"}],"center":[{"id":"3776"},{"id":"3780"}],"height":500,"left":[{"id":"3777"}],"renderers":[{"id":"3791"},{"id":"3797"},{"id":"3803"},{"id":"3813"},{"id":"3819"}],"title":{"id":"3784"},"toolbar":{"id":"3782"},"width":750,"x_range":{"id":"3765"},"x_scale":{"id":"3769"},"y_range":{"id":"3767"},"y_scale":{"id":"3771"}},"id":"3764","subtype":"Figure","type":"Plot"},{"attributes":{"fill_alpha":0.2,"fill_color":"#47bb02","hatch_alpha":{"value":0.2},"hatch_color":{"value":"#47bb02"},"x":{"field":"Year"},"y1":{"expr":{"id":"3805"}},"y2":{"expr":{"id":"3806"}}},"id":"3812","type":"VArea"},{"attributes":{},"id":"3841","type":"Selection"},{"attributes":{"coordinates":null,"data_source":{"id":"3763"},"glyph":{"id":"3816"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3818"},"name":"Profit","nonselection_glyph":{"id":"3817"},"view":{"id":"3820"}},"id":"3819","type":"GlyphRenderer"},{"attributes":{"axis":{"id":"3773"},"coordinates":null,"group":null,"ticker":null},"id":"3776","type":"Grid"},{"attributes":{"coordinates":null,"group":null,"text":"\nArea Chart: Annual Cost, Profit, and Revenue\n","text_font_size":"25px","text_font_style":"normal"},"id":"3784","type":"Title"},{"attributes":{"coordinates":null,"data_source":{"id":"3763"},"glyph":{"id":"3788"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3790"},"nonselection_glyph":{"id":"3789"},"view":{"id":"3792"}},"id":"3791","type":"GlyphRenderer"},{"attributes":{},"id":"3838","type":"BasicTickFormatter"},{"attributes":{"fields":["Cost"]},"id":"3806","type":"Stack"},{"attributes":{"line_alpha":0.1,"line_color":"#47bb02","line_width":7,"x":{"field":"Year"},"y":{"field":"Cost"}},"id":"3795","type":"Line"},{"attributes":{"line_alpha":0.2,"line_color":"#47bb02","line_width":7,"x":{"field":"Year"},"y":{"field":"Cost"}},"id":"3796","type":"Line"},{"attributes":{"fill_color":{"value":"red"},"hatch_color":{"value":"red"},"line_color":{"value":"red"},"size":{"value":10},"x":{"field":"Year"},"y":{"field":"Revenue"}},"id":"3800","type":"Scatter"},{"attributes":{"fields":["Cost","Profit"]},"id":"3808","type":"Stack"},{"attributes":{"line_color":"#ff6c34","line_width":7,"x":{"field":"Year"},"y":{"field":"Revenue"}},"id":"3788","type":"Line"},{"attributes":{},"id":"3778","type":"BasicTicker"},{"attributes":{},"id":"3836","type":"AllLabels"},{"attributes":{},"id":"3823","type":"WheelZoomTool"},{"attributes":{"source":{"id":"3763"}},"id":"3792","type":"CDSView"},{"attributes":{"line_color":"#47bb02","line_width":7,"x":{"field":"Year"},"y":{"field":"Cost"}},"id":"3794","type":"Line"},{"attributes":{"coordinates":null,"data_source":{"id":"3763"},"glyph":{"id":"3794"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3796"},"nonselection_glyph":{"id":"3795"},"view":{"id":"3798"}},"id":"3797","type":"GlyphRenderer"},{"attributes":{"fill_alpha":0.2,"fill_color":"#f4dc8c","hatch_alpha":{"value":0.2},"hatch_color":{"value":"#f4dc8c"},"x":{"field":"Year"},"y1":{"expr":{"id":"3807"}},"y2":{"expr":{"id":"3808"}}},"id":"3818","type":"VArea"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"red"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"red"},"line_alpha":{"value":0.1},"line_color":{"value":"red"},"size":{"value":10},"x":{"field":"Year"},"y":{"field":"Revenue"}},"id":"3801","type":"Scatter"},{"attributes":{"fields":[]},"id":"3805","type":"Stack"},{"attributes":{},"id":"3835","type":"BasicTickFormatter"},{"attributes":{"coordinates":null,"formatter":{"id":"3835"},"group":null,"major_label_policy":{"id":"3836"},"ticker":{"id":"3778"}},"id":"3777","type":"LinearAxis"},{"attributes":{"overlay":{"id":"3842"}},"id":"3821","type":"BoxZoomTool"},{"attributes":{},"id":"3769","type":"LinearScale"},{"attributes":{"source":{"id":"3763"}},"id":"3814","type":"CDSView"},{"attributes":{},"id":"3824","type":"ResetTool"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"red"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"red"},"line_alpha":{"value":0.2},"line_color":{"value":"red"},"size":{"value":10},"x":{"field":"Year"},"y":{"field":"Revenue"}},"id":"3802","type":"Scatter"},{"attributes":{"coordinates":null,"data_source":{"id":"3763"},"glyph":{"id":"3800"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3802"},"nonselection_glyph":{"id":"3801"},"view":{"id":"3804"}},"id":"3803","type":"GlyphRenderer"},{"attributes":{"coordinates":null,"data_source":{"id":"3763"},"glyph":{"id":"3810"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3812"},"name":"Cost","nonselection_glyph":{"id":"3811"},"view":{"id":"3814"}},"id":"3813","type":"GlyphRenderer"},{"attributes":{},"id":"3771","type":"LinearScale"},{"attributes":{"source":{"id":"3763"}},"id":"3820","type":"CDSView"},{"attributes":{"axis":{"id":"3777"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"3780","type":"Grid"},{"attributes":{"fill_alpha":0.1,"fill_color":"#47bb02","hatch_alpha":{"value":0.1},"hatch_color":{"value":"#47bb02"},"x":{"field":"Year"},"y1":{"expr":{"id":"3805"}},"y2":{"expr":{"id":"3806"}}},"id":"3811","type":"VArea"},{"attributes":{},"id":"3767","type":"DataRange1d"},{"attributes":{"line_alpha":0.1,"line_color":"#ff6c34","line_width":7,"x":{"field":"Year"},"y":{"field":"Revenue"}},"id":"3789","type":"Line"},{"attributes":{},"id":"3825","type":"SaveTool"},{"attributes":{"source":{"id":"3763"}},"id":"3798","type":"CDSView"},{"attributes":{"fields":["Cost"]},"id":"3807","type":"Stack"},{"attributes":{"source":{"id":"3763"}},"id":"3804","type":"CDSView"},{"attributes":{"active_drag":null,"tools":[{"id":"3781"},{"id":"3821"},{"id":"3822"},{"id":"3823"},{"id":"3824"},{"id":"3825"}]},"id":"3782","type":"Toolbar"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"3842","type":"BoxAnnotation"},{"attributes":{"coordinates":null,"formatter":{"id":"3838"},"group":null,"major_label_policy":{"id":"3839"},"ticker":{"id":"3774"}},"id":"3773","type":"LinearAxis"},{"attributes":{"fill_alpha":0.7,"fill_color":"#f4dc8c","hatch_alpha":{"value":0.7},"hatch_color":{"value":"#f4dc8c"},"x":{"field":"Year"},"y1":{"expr":{"id":"3807"}},"y2":{"expr":{"id":"3808"}}},"id":"3816","type":"VArea"},{"attributes":{},"id":"3822","type":"PanTool"},{"attributes":{"fill_alpha":0.7,"fill_color":"#47bb02","hatch_alpha":{"value":0.7},"hatch_color":{"value":"#47bb02"},"x":{"field":"Year"},"y1":{"expr":{"id":"3805"}},"y2":{"expr":{"id":"3806"}}},"id":"3810","type":"VArea"},{"attributes":{"fill_alpha":0.1,"fill_color":"#f4dc8c","hatch_alpha":{"value":0.1},"hatch_color":{"value":"#f4dc8c"},"x":{"field":"Year"},"y1":{"expr":{"id":"3807"}},"y2":{"expr":{"id":"3808"}}},"id":"3817","type":"VArea"},{"attributes":{"data":{"Cost":{"__ndarray__":"AAAAwAA1V0EAAACAHb5XQQAAAKCns2FBAAAAQF+eX0EAAACASNVnQQAAAKCXXWRB","dtype":"float64","order":"little","shape":[6]},"Profit":{"__ndarray__":"AAAAgIr7RUEAAACAnIVGQQAAAACKu1ZBAAAAwKVeVkEAAADAHLhcQQAAAAAL11pB","dtype":"float64","order":"little","shape":[6]},"Revenue":{"__ndarray__":"AAAAAGMZYUEAAADgdYBhQQAAAKBsEW1BAAAAgIL+akEAAABwqxhzQQAAAJCO5HBB","dtype":"float64","order":"little","shape":[6]},"Year":[2011,2012,2013,2014,2015,2016]},"selected":{"id":"3841"},"selection_policy":{"id":"3840"}},"id":"3763","type":"ColumnDataSource"},{"attributes":{},"id":"3765","type":"DataRange1d"},{"attributes":{},"id":"3840","type":"UnionRenderers"},{"attributes":{"line_alpha":0.2,"line_color":"#ff6c34","line_width":7,"x":{"field":"Year"},"y":{"field":"Revenue"}},"id":"3790","type":"Line"},{"attributes":{"callback":null,"tooltips":[["Cost","$@Cost{0,0.00}"],["Profit","$@Profit{0,0.00}"],["Revenue","$@Revenue{0,0.00}"]]},"id":"3781","type":"HoverTool"},{"attributes":{},"id":"3839","type":"AllLabels"},{"attributes":{},"id":"3774","type":"BasicTicker"}],"root_ids":["3764"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('4240').textContent;
+                  const render_items = [{"docid":"f22be079-84b1-4742-a753-7e5236aad437","root_ids":["3764"],"roots":{"3764":"3faaf215-b56f-495a-a661-1770705da0df"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
